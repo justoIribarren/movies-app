@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 13px;
+  justify-content: center;
+  
+  width: 100vw;
+  border-top: 1px solid #ffffff31;
+  font-size: .875rem;
+  &__contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 30px;
+    a{
+      font-weight: 700
+    }
+  } 
+
+  &__link{
+    transition: all .3s;
+    &:hover, svg:hover{
+      fill: #EF4040;
+      color: #EF4040
+    }
+  }
+  
+  a:hover{
+    color: #EF4040
+  }
+}

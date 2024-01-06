@@ -1,0 +1,41 @@
+.form{
+  border: 1px solid #ffffffa3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+  &__input{
+    color: #FFF;
+    border: none;
+    padding: 5px;
+    transition: all .3s;
+    width: 100px;
+    background-color: transparent;  
+    border-right: 1px solid #ffffffa3;
+    &::placeholder{color: #ffffffa3}
+    &:focus{
+      outline: none;
+      width: 200px
+    }
+  }
+  
+  &__button{
+    padding-left: 5px;
+    display: flex
+  }
+
+  &__icon{
+    font-size: 1.3rem;
+    line-height: .8;
+    color: #ffffffa3
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .form__input{
+    width: 100%;
+    &:focus{
+      width: 100%
+    }
+  }
+}

@@ -1,0 +1,25 @@
+
+.not-found{
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  span{
+    font-size: .7rem;
+    padding: 10px;
+  }
+  &--card{
+    height: 225px;
+    width: 150px;
+  }
+
+  &--cast{
+    width: 100px;
+    height: 125px;
+    margin-bottom: 5px;
+  }
+
+  &--hero{
+    min-width: 233px;
+    height: 350px;
+    border-radius: 10px
+  }
+}

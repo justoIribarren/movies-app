@@ -1,0 +1,28 @@
+.card{
+  cursor: pointer;
+  max-width: 150px;
+  min-height: 225px;
+  display: flex;
+  flex-direction: column;
+  &:hover &__title{
+    color: #EF4040
+  }
+  &:hover &__img{
+    opacity: .5;
+  }
+  &__img{
+    transition: .3s;
+    border-radius: 5px;
+    height: auto;
+    min-height: 225px;
+    width: 100%;
+    object-fit: cover
+  }
+
+  &__title{
+    transition: color .3s;
+    padding-top: 7px;
+    font-size: .9rem
+  }
+}
+

@@ -1,0 +1,13 @@
+@use '/src/app';
+@use '/src/pages/main';
+@use '/src/pages/Details/details';
+@use '/src/pages/Details/components/Cast/cast';
+@use '/src/components/Header/header';
+@use '/src/components/Hero/hero';
+@use '/src/components/Footer/footer';
+@use '/src/components/Card/card';
+@use '/src/components/CardList/card-list';
+@use '/src/components/NotFound/not-found';
+@use '/src/components/SearchHeader/search-header';
+@use '/src/components/LoadMore/load-more';
+@use '/src/assets/Icons/icons';
