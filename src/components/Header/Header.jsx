@@ -13,15 +13,15 @@ export default function Header () {
   return (
     <header className='header'>
       <nav className='header__nav nav'>
-        <Link to='/'><h1 className='header__logo'>MOVIES APP</h1></Link>
+        <Link to='/movies-app'><h1 className='header__logo'>MOVIES APP</h1></Link>
         <button className='material-symbols-rounded nav__menu button' onClick={(e) => handleToggle(e)}>menu</button>
         <div className={`nav__wrapper ${menu ? 'nav__wrapper--show' : ''}`}>
           <ul className='nav__list'>
             <li className='nav__li'>
-              <NavLink to='/movie' className='link-hover nav__link'>Peliculas</NavLink>
+              <NavLink to='/movies-app/movie' className='link-hover nav__link'>Peliculas</NavLink>
             </li>
             <li className='nav__li'>
-              <NavLink to='/tv' className='link-hover nav__link'>Series</NavLink>
+              <NavLink to='/movies-app/tv' className='link-hover nav__link'>Series</NavLink>
             </li>
           </ul>
           <SearchHeader />

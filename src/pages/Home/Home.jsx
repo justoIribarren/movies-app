@@ -12,11 +12,11 @@ export default function Home () {
         <CardList title='Tendencias de la semana' url={APIConfig.all.trending} />
 
         <CardList title='Películas' url={APIConfig.all.discover_movie} category='movie'>
-          <Link className='link-hover link-hover--more' to='/movie' onClick={() => window.scrollTo(0, 0)}>Ver más</Link>
+          <Link className='link-hover link-hover--more' to='/movies-app/movie' onClick={() => window.scrollTo(0, 0)}>Ver más</Link>
         </CardList>
 
         <CardList title='Series de TV' url={APIConfig.all.discover_tv} category='tv'>
-          <Link className='link-hover link-hover--more' to='/tv' onClick={() => window.scrollTo(0, 0)}>Ver más</Link>
+          <Link className='link-hover link-hover--more' to='/movies-app/tv' onClick={() => window.scrollTo(0, 0)}>Ver más</Link>
         </CardList>
       </main>
     </>

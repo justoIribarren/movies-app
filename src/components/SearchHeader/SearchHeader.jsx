@@ -9,7 +9,7 @@ export default function SearchHeader () {
 
   const handleOnSubmit = (e) => {
     e.preventDefault()
-    navigate(`/search/${input}`)
+    navigate(`/movies-app/search/${input}`)
   }
 
   return (

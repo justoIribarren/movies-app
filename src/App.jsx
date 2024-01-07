@@ -11,10 +11,10 @@ function App () {
     <div className='App'>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/:category' element={<Category />} />
-        <Route path='/:category/:element' element={<Details />} />
-        <Route path='/search/:keyword' element={<Searches />} />
+        <Route path='/movies-app' element={<Home />} />
+        <Route path='/movies-app/:category' element={<Category />} />
+        <Route path='/movies-app/:category/:element' element={<Details />} />
+        <Route path='/movies-app/search/:keyword' element={<Searches />} />
       </Routes>
       <Footer />
 

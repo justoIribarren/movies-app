@@ -18,7 +18,7 @@ export default function Hero ({ data }) {
                 <span className='text--secondary'><span className='material-symbols-rounded' id='star'>star</span>{data.vote_average.toFixed(1)}</span>
               </div>
               <p className='hero__description'>{data.overview} </p>
-              <Link to={`/${data.media_type}/${data.id}-${(data.title || data.name).replaceAll(' ', '-').toLowerCase()}`} className='hero__button'>
+              <Link to={`/movies-app/${data.media_type}/${data.id}-${(data.title || data.name).replaceAll(' ', '-').toLowerCase()}`} className='hero__button'>
                 <button className='button button--primary'>Más Información</button>
               </Link>
             </div>
